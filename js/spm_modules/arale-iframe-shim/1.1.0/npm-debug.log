@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/chencheng/.nvm/v0.10.28/bin/npm',
+1 verbose cli   'info',
+1 verbose cli   'generator-spm' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.28
+4 verbose request where is /generator-spm
+5 verbose request registry https://registry.npmjs.org/
+6 verbose request id 3931904a39e4c71d
+7 verbose url raw /generator-spm
+8 verbose url resolving [ 'https://registry.npmjs.org/', './generator-spm' ]
+9 verbose url resolved https://registry.npmjs.org/generator-spm
+10 verbose request where is https://registry.npmjs.org/generator-spm
+11 info trying registry request attempt 1 at 13:32:00
+12 http GET https://registry.npmjs.org/generator-spm
+13 http 404 https://registry.npmjs.org/generator-spm
+14 silly registry.get cb [ 404,
+14 silly registry.get   { date: 'Wed, 13 Aug 2014 05:32:00 GMT',
+14 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+14 silly registry.get     etag: '"EOK6VXBM3GW12DTT9RKAAXFED"',
+14 silly registry.get     'content-type': 'application/json',
+14 silly registry.get     'cache-control': 'max-age=0',
+14 silly registry.get     'content-length': '448',
+14 silly registry.get     'accept-ranges': 'bytes',
+14 silly registry.get     via: '1.1 varnish',
+14 silly registry.get     age: '0',
+14 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+14 silly registry.get     'x-cache': 'MISS',
+14 silly registry.get     'x-cache-hits': '0',
+14 silly registry.get     'x-timer': 'S1407907920.552606,VS0,VE120',
+14 silly registry.get     vary: 'Accept',
+14 silly registry.get     'keep-alive': 'timeout=10, max=50',
+14 silly registry.get     connection: 'Keep-Alive' } ]
+15 error 404 Unpublished by sorrycc on 2014-08-05T08:16:20.508Z
+15 error 404
+15 error 404 'generator-spm' is not in the npm registry.
+15 error 404 You should bug the author to publish it
+15 error 404
+15 error 404 Note that you can also install from a
+15 error 404 tarball, folder, or http url, or git url.
+16 error System Darwin 13.3.0
+17 error command "node" "/Users/chencheng/.nvm/v0.10.28/bin/npm" "info" "generator-spm"
+18 error cwd /private/tmp/iframe-shim
+19 error node -v v0.10.28
+20 error npm -v 1.4.21
+21 error code E404
+22 verbose exit [ 1, true ]

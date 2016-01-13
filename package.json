@@ -1,0 +1,7 @@
+{
+  "spm": {
+    "dependencies": {
+      "seajs": "~2.3.0"
+    }
+  }
+}
